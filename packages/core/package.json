@@ -1,20 +1,20 @@
 {
-  "name": "@yarb/core",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "build": "tsc && vite build",
-    "test": "vitest --run",
-    "test:ui": "vitest --ui --coverage.enabled=true",
-    "test:coverage": "vitest run --coverage"
-  },
-  "devDependencies": {
-    "@vitest/coverage-istanbul": "^2.1.2",
-    "@vitest/ui": "^2.1.2",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.8",
-    "vite-plugin-dts": "^4.2.3",
-    "vitest": "^2.1.2"
-  }
+	"name": "@yarb/core",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"build": "tsc && vite build",
+		"test": "vitest --run",
+		"test:ui": "vitest --ui --coverage.enabled=true",
+		"test:coverage": "vitest run --coverage"
+	},
+	"devDependencies": {
+		"@vitest/coverage-istanbul": "^2.1.2",
+		"@vitest/ui": "^2.1.2",
+		"typescript": "^5.5.3",
+		"vite": "^5.4.8",
+		"vite-plugin-dts": "^4.2.3",
+		"vitest": "^2.1.2"
+	}
 }

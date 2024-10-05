@@ -1,5 +1,5 @@
-import { apply } from ".";
 import { expect, test } from "vitest";
+import { apply } from ".";
 
 test("evaluate variable", () => {
 	expect(apply({ var: "xyz" }, { xyz: 123 })).toBe(123);
